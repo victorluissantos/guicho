@@ -25,10 +25,10 @@ Class Config extends Connection{
 
 		try{
 			//Dados de acesso a banco
-			$this->connection->setHost("mysql.hostinger.com.br"); //host
-			$this->connection->setDatabase("u410696195_a"); //data bases
-			$this->connection->setUsuario("u410696195_a");
-			$this->connection->setSenha("123456");
+			$this->connection->setHost("your host"); //host
+			$this->connection->setDatabase("your base"); //data bases
+			$this->connection->setUsuario("your user");
+			$this->connection->setSenha("your password");
 
 			/*Starting function's*/
 			$start = new $this->startControll();
